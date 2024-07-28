@@ -1,1 +1,33 @@
-/*  your css code here. If applicable */
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    height: 100vh; /* Ensure body covers full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+}
+
+/* Center Box Styles */
+.center-box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute; /* Positioning the box absolutely */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centering the box */
+}
+
+.center-box p {
+    margin: 0;
+    color: purple;
+    text-align: center;
+}
